@@ -5,7 +5,7 @@ import numpy as np
 from io import BytesIO
 
 # Load the model only once when the script is loaded
-model_path = 'model/warning_signs_inceptionv3_model.h5'
+model_path = 'warning_signs_inceptionv3_model.h5'
 model = load_model(model_path)
 
 # Custom labels - Replace with your actual class names in the correct order
